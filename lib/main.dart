@@ -65,7 +65,7 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  static Color color = Colors.blue[700];
+  static Color color = Colors.blue[700]!!;
 
   Widget buttonSection = Container(
     child: Row(
